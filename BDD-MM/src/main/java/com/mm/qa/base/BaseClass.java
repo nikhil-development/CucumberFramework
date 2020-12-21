@@ -20,7 +20,7 @@ public class BaseClass {
 		String browserName = prop.getProperty("browser");
 		
 		if(browserName.equals("chrome")){
-			System.setProperty("webdriver.chrome.driver", "/src/utils/chromedriver.exe");	
+			System.setProperty("webdriver.chrome.driver", "/src/main/java/utils/chromedriver.exe");	
 			driver = new ChromeDriver(); 
 		}
 		driver.manage().window().maximize();
