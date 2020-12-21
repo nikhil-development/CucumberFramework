@@ -1,3 +1,3 @@
 # CucumberFramework
 Setting up Cucumber framework .
-Automated and tested some scenarios for freecrm website.
+Automated and tested some scenarios for Execrise Task.
